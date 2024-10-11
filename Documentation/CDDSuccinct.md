@@ -82,7 +82,7 @@ L'application est un système de gestion des formations permettant aux utilisate
 ## **6. Méthodologie de Gestion de Projet**
 ### **6.1. Méthodologie Agile**
 - Gestion du projet avec Jira (sprints, backlog, épics, user stories).
-- Planification par sprints de 2 semaines.
+- Planification par sprints d'une semaine.
   
 ### **6.2. Outils**
 - Jira pour la gestion des tâches.
