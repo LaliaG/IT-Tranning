@@ -1,17 +1,17 @@
 Par où commencer ?
-Cahier des charges : Commencez par rédiger un cahier des charges détaillé. Cela vous donnera une vision claire des objectifs du projet et des attentes utilisateurs.
-Analyse des besoins utilisateurs : Identifiez les interactions clés et créez des diagrammes de flux utilisateur pour comprendre comment les fonctionnalités seront utilisées.
-Maquettes : Concevez les wireframes des interfaces principales de l'application pour visualiser les parcours utilisateurs.
-Prototype et enchaînement des maquettes : Formalisez l'enchaînement des pages et testez l’expérience utilisateur avec un prototype.
-Jira : Une fois que vous avez une vue d’ensemble claire, configurez Jira pour organiser le travail en tâches et suivre l'avancement.
+Cahier des charges : Commencez par rédiger un cahier des charges détaillé. Cela me donnera une vision claire des objectifs du projet et des attentes utilisateurs.
+Analyse des besoins utilisateurs : j'identifie les interactions clés et je crée des diagrammes de flux utilisateur pour comprendre comment les fonctionnalités seront utilisées.
+Maquettes : je conçois les wireframes des interfaces principales de l'application pour visualiser les parcours utilisateurs.
+Prototype et enchaînement des maquettes : je Formalise l'enchaînement des pages et teste l’expérience utilisateur avec un prototype.
+Jira : une fois que j'ai une vue d’ensemble claire, je configure Jira pour organiser le travail en tâches et suivre l'avancement.
 Résumé :
 1er : Rédiger le cahier des charges,
 2ème : Analyser les besoins utilisateurs (use cases et user flows),
 3ème : Créer les maquettes et le prototype interactif,
 4ème : Configurer Jira pour gérer le développement du projet.
-Cela vous permettra d'avoir une base solide avant de vous lancer dans le développement.
+Cela me permettra d'avoir une base solide avant de me lancer dans le développement.
 
-Le **mind mapping** (ou carte mentale) est un outil très utile au début du projet, généralement lors de la phase d'**analyse des besoins** et de la création du **cahier des charges**. Il peut être utilisé à plusieurs moments clés pour organiser vos idées, clarifier la structure du projet, et visualiser les différentes composantes et relations entre les éléments du projet.
+Le **mind mapping** (ou carte mentale) est un outil très utile au début du projet, généralement lors de la phase d'**analyse des besoins** et de la création du **cahier des charges**. Il peut être utilisé à plusieurs moments clés pour organiser les idées, clarifier la structure du projet, et visualiser les différentes composantes et relations entre les éléments du projet.
 
 ### Voici les étapes où le mind mapping peut être pertinent :
 
@@ -43,7 +43,7 @@ Le **mind mapping** (ou carte mentale) est un outil très utile au début du pro
 ### En résumé :
 - **Mind mapping** intervient dès l'analyse des besoins, et peut être utilisé plusieurs fois tout au long de la conception et de la gestion de projet pour structurer et organiser vos idées.
 
-Oui, ce que tu décris correspond exactement au **processus classique de développement logiciel**, et le **mind mapping** s'insère bien dans cette démarche, principalement dans les premières étapes. Voici comment cela s'aligne avec ce processus :
+**processus classique de développement logiciel**, et le **mind mapping** s'insère bien dans cette démarche, principalement dans les premières étapes. Voici comment cela s'aligne avec ce processus :
 
 ### 1) Définir les besoins et les exigences du client et des utilisateurs :
    - **Mind mapping** : Utiliser une carte mentale pour structurer les besoins et exigences, les fonctionnalités clés à développer, et les attentes des utilisateurs.
@@ -73,7 +73,7 @@ Oui, ce que tu décris correspond exactement au **processus classique de dévelo
 ---
 
 ### Résumé :
-Le **mind mapping** est particulièrement utile dans les **premières phases** (définition des besoins, analyse et conception), mais il peut aussi être utilisé pour organiser les tâches de développement, de test, et de déploiement. Il complète bien le processus de développement logiciel que tu décris, en offrant une vue d’ensemble des différentes étapes et en facilitant la structuration des informations et la planification du projet.
+Le **mind mapping** est particulièrement utile dans les **premières phases** (définition des besoins, analyse et conception), mais il peut aussi être utilisé pour organiser les tâches de développement, de test, et de déploiement. Il complète bien le processus de développement logiciel en offrant une vue d’ensemble des différentes étapes et en facilitant la structuration des informations et la planification du projet.
 
 Le processus de développement logiciel contient un certain nombre d’étapes :
 1)	Définir les besoins et les exigences du client et des utilisateurs.

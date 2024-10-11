@@ -1,4 +1,4 @@
-Voici un **cahier des charges** mis à jour et complété, organisé avec une structure claire pour une meilleure gestion du projet dans Jira. J'ai ajouté des éléments manquants basés sur tes besoins. Ensuite, je te proposerai une méthode pour la configuration initiale de Jira avec les épics et user stories.
+Voici un **cahier des charges** mis à jour et complété, organisé avec une structure claire pour une meilleure gestion du projet dans Jira.
 
 ---
 
@@ -61,7 +61,7 @@ L'application est un **système de gestion des formations** permettant aux utili
 - **Système de tickets** pour assistance technique.
 - Section **FAQ** pour les utilisateurs (formateurs et participants).
 
----
+
 
 ## **4. Contraintes Techniques et Scalabilité**
 

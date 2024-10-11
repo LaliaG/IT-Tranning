@@ -180,7 +180,7 @@ Chaque **Epic** contiendra plusieurs **User Stories** et **Tâches** qui décriv
 
 #### **Comment créer une tâche dans Jira :**
 
-1. Accède à ton projet Jira.
+1. Accède à mon projet Jira.
 2. Clique sur **"Créer"** (Create).
 3. Sélectionne **Tâche** (ou **User Story**, selon la nature de l'élément).
 4. Associe cette tâche à l'Epic correspondant (par exemple, "Epic 1 : Gestion des Utilisateurs").
