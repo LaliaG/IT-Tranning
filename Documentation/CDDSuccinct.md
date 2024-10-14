@@ -102,7 +102,7 @@ L'application est un système de gestion des formations permettant aux utilisate
 - **Budget estimé :** X euros (à définir selon les ressources et l’équipe).
 - **Durée estimée :** 3 mois, répartis en 12 sprints dune semaine chacun.
 
----
+
 
 ### **Annexe : Détails des rôles et responsabilités**
 - **Responsable Catalogue :** Gère le contenu des formations, thèmes et sous-thèmes.
@@ -112,7 +112,7 @@ L'application est un système de gestion des formations permettant aux utilisate
 - **Responsable Commercial :** Assure la gestion des ventes et du suivi client.
 - **Personnel Logistique :** Installe les équipements et prépare les salles de formation.
 
----
+
 
 Avec ce **cahier des charges structuré**, je peux maintenant passer à la planification dans **Jira**, où chaque fonctionnalité sera transformée en **Épic**, et les tâches détaillées dans des **user stories** pour chaque sprint.
 Configuration initiale de Jira/ Création des épics et des tâches.

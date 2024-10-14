@@ -163,13 +163,13 @@ Elle vise à améliorer l'accès à l'apprentissage en ligne tout en automatisan
 - **Manuel d’utilisation** pour les administrateurs et formateurs.
 - **Conteneurs Docker** prêts à déployer avec Kubernetes.
 
----
+
 
 Avec ce cahier des charges détaillé, tu peux entamer les différentes étapes du projet avec une vision claire et organisée, de la conception au déploiement. Chaque fonctionnalité a été pensée pour répondre aux besoins des utilisateurs cibles, tout en assurant la sécurité et la performance du système.
 
 Voici les microservices à développer pour l'application **IT-Training**. Chaque microservice est autonome et communique via des APIs RESTful ou des messages (par exemple avec Kafka ou RabbitMQ). L'architecture en microservices permet de faciliter la scalabilité et la maintenance du système.
 
----
+
 
 ## **Microservices de IT-Training**
 
@@ -300,7 +300,6 @@ Ces microservices permettent de gérer efficacement toutes les fonctionnalités 
 
 Voici les différents diagrammes pour l'application **IT-Training** :
 
----
 
 ### **1. Diagramme de Classe**
 
