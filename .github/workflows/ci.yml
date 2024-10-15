@@ -1,0 +1,101 @@
+name: IT-Training CI Pipeline
+
+# Déclenchement du pipeline sur push/pull_request dans main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    # Stratégie pour exécuter le workflow avec plusieurs versions de Java
+    strategy:
+      matrix:
+        java-version: [11, 17]
+
+    steps:
+      # Vérification du dépôt GitHub
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configuration de la version de Java
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: ${{ matrix.java-version }}
+          distribution: 'adopt'
+
+      # Validation des dépendances Maven
+      - name: Validate Dependencies
+        run: mvn validate
+
+      # Compilation et tests
+      - name: Build and Test with Maven
+        run: mvn clean verify
+        env:
+          CI: true
+
+      # Upload des résultats de tests
+      - name: Upload Test Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-results
+          path: target/surefire-reports/
+
+      # Sauvegarde du JAR si les tests passent
+      - name: Upload JAR Artifact
+        if: success()
+        uses: actions/upload-artifact@v3
+        with:
+          name: spring-boot-app
+          path: target/*.jar
+
+  check-style:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Vérification du dépôt GitHub
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Configuration de la version de Java
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: 17
+          distribution: 'adopt'
+
+      # Vérification du formatage du code avec Maven
+      - name: Check Code Style
+        run: mvn checkstyle:check
+
+  docker-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Vérification du dépôt GitHub
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Construction de l'image Docker de l'application
+      - name: Build Docker Image
+        run: docker build -t it-training-app .
+
+      # Sauvegarde de l'image Docker sous forme d'artefact
+      - name: Upload Docker Image Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: docker-image
+          path: ./it-training-app.tar
+
+      # Push de l’image Docker si nécessaire (DockerHub ou autre registre)
+      - name: Push Docker Image
+        run: |
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+          docker tag it-training-app your-dockerhub-username/it-training-app:latest
+          docker push your-dockerhub-username/it-training-app:latest
